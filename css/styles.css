@@ -15,23 +15,23 @@ html {
 }
 
 body {
-  background-color: rgb(240, 229, 229);
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
   color: var(--main-font-color);
+  background-color: rgb(240, 229, 229);
 }
 
 .container {
-  max-width: 960px;
   margin: 0 auto;
+  max-width: 960px;
 }
 
 .cv-header {
+  margin: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row-reverse;
-  margin: 20px 0;
 }
 
 .header__description {
@@ -53,9 +53,9 @@ body {
 }
 
 .cv-main {
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 .contacts__section {
@@ -67,21 +67,21 @@ body {
 }
 
 .contacts__item {
+  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
 }
 
 .title {
+  margin-bottom: 10px;
   line-height: 1, 5;
   color: var(--title-color);
-  margin-bottom: 10px;
 }
 
 .item {
   font-size: 24px;
   line-height: 1.2;
-  flood-color: var(--secondary-font-color);
+  color: var(--secondary-font-color);
 }
 
 .section {
