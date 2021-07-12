@@ -5,90 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Liliia Hlushko_CV</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
     <div class="container">
       <header class="cv-header">
-        <h1 class="cv-title">Liliia Hlushko</h1>
+        <div class="header__description">
+          <h1 class="cv-title">Liliia Hlushko</h1>
+          <p class="cv-profession">Software Developer</p>
+        </div>
         <img
           class="cv-avatar"
           src="/images/69751462_2352561431626616_6500489223617904640_o.jpg"
           alt="Liliia Hlushko (Photo)"
-          height="240"
+          width="200"
         />
       </header>
 
       <main class="cv-main">
-        <aside class="contacts__section">
+        <aside class="contacts__section section">
           <h2 class="title">Contacts</h2>
-          <ul class="contacts__list">
-            <li class="contacts__item"><span>Phone:</span>+380663387222</li>
-            <li class="contacts__item">
-              <span>Email:</span>liliaglushko1992@gmail.com
+          <ul class="list">
+            <li class="contacts__item item">
+              <span class="contacts__name">Phone:</span>+380663387222
             </li>
-            <li class="contacts__item"><span>Telegram:</span>@liliia_r</li>
-            <li class="contacts__item">
-              <span>Discord:</span>Liliia Hlushko#8190
+            <li class="contacts__item item">
+              <span class="contacts__name">Email:</span
+              >liliaglushko1992@gmail.com
+            </li>
+            <li class="contacts__item item">
+              <span class="contacts__name">Telegram:</span>@liliia_r
+            </li>
+            <li class="contacts__item item">
+              <span class="contacts__name">Discord:</span>Liliia Hlushko#8190
+            </li>
+            <li class="contacts__item item">
+              <span class="contacts__name">linkedIn:</span
+              ><a
+                href="https://www.linkedin.com/in/liliia-hlushko-6b7624141/"
+                class="linkedin__link"
+                target="_blank"
+                >linkedIn</a
+              >
             </li>
           </ul>
         </aside>
 
-        <section class="summary__section">
-          <h2 class="title">Summary</h2>
-          <p class="summary__description">
-            I want to make a career as a front-end developer in a progressive
-            company or startup and join professional team of developers to make
-            great projects. A sociable and flexible team member who loves to
-            learn. Moreover, I’m a super positive and hardworking person.
-          </p>
-        </section>
+        <div class="sections__wrapper">
+          <section class="section">
+            <h2 class="title">Summary</h2>
+            <p class="item">
+              I want to make a career as a front-end developer in a progressive
+              company or startup and join professional team of developers to
+              make great projects. A sociable and flexible team member who loves
+              to learn. Moreover, I’m a super positive and hardworking person.
+            </p>
+          </section>
 
-        <section class="skills__section">
-          <h2 class="title">Skills</h2>
-          <ul class="skills__list">
-            <li class="skills__item">HTML</li>
-            <li class="skills__item">CSS</li>
-            <li class="skills__item">Figma</li>
-            <li class="skills__item">JS</li>
-            <li class="skills__item">React</li>
-          </ul>
-        </section>
+          <section class="section">
+            <h2 class="title">Skills</h2>
+            <ul class="list">
+              <li class="item">HTML</li>
+              <li class="item">CSS</li>
+              <li class="item">Figma</li>
+              <li class="item">JS</li>
+              <li class="item">React</li>
+            </ul>
+          </section>
 
-        <section class="code__section">
-          <h2 class="title">Code examples</h2>
-          <a class="code__example">https://github.com/liliia-r</a>
-        </section>
+          <section class="section">
+            <h2 class="title">Code examples</h2>
+            <a class="item">https://github.com/liliia-r</a>
+          </section>
 
-        <section class="experience__section">
-          <h2 class="title">Experience</h2>
-          <p class="experience__description">
-            2017 - 2021 - Recruiter at IT Company
-          </p>
-        </section>
+          <section class="section">
+            <h2 class="title">Experience</h2>
+            <p class="item">2017 - 2021 - Recruiter at IT Company</p>
+          </section>
 
-        <section class="education__section">
-          <h2 class="title">Education</h2>
-          <ol class="education__list">
-            <li class="education__item">
-              Kiev National Taras Shevchenko University Bachelor’s degree,
-              Accounting and Audit (2010-2014)
-            </li>
-            <li class="education__item">
-              Kiev National Taras Shevchenko University Master’s degree,
-              Accounting and Audit (2014-2016)
-            </li>
-          </ol>
-        </section>
+          <section class="section">
+            <h2 class="title">Education</h2>
+            <ol class="list">
+              <li class="item">
+                Kiev National Taras Shevchenko University Bachelor’s degree,
+                Accounting and Audit (2010-2014)
+              </li>
+              <li class="item">
+                Kiev National Taras Shevchenko University Master’s degree,
+                Accounting and Audit (2014-2016)
+              </li>
+            </ol>
+          </section>
 
-        <section class="languages__section">
-          <h2 class="title">Languages</h2>
-          <ul class="languages__list">
-            <li class="languages__item">English - Intermediate</li>
-            <li class="languages__item">Ukrainian – native</li>
-            <li class="languages__item">Russian – fluent</li>
-          </ul>
-        </section>
+          <section class="languages__section section">
+            <h2 class="title">Languages</h2>
+            <ul class="list">
+              <li class="item">English - Intermediate</li>
+              <li class="item">Ukrainian – native</li>
+              <li class="item">Russian – fluent</li>
+            </ul>
+          </section>
+        </div>
       </main>
 
       <footer class="cv-footer">
