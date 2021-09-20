@@ -404,6 +404,10 @@ a {
     margin-left: 0;
   }
 
+  .download__link {
+    height: 80px;
+  }
+
   .contacts__name,
   .contacts__item,
   .education__item {
@@ -415,7 +419,6 @@ a {
   }
 
   .projects__list {
-    /* flex-direction: row; */
     flex-wrap: wrap;
   }
 
