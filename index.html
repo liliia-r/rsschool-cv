@@ -10,12 +10,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./libs/highlight/styles/srcery.min.css" />
+    <link
+      rel="stylesheet"
+      href="./libs/highlight/styles/atom-one-dark.min.css"
+    />
     <script
-      src="https://kit.fontawesome.com/d04adfcdd0.js"
+      src="./libs/highlight/highlight.min.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -175,7 +178,7 @@
 
             <section id="code-example" class="section section__code">
               <h2 class="title">Code example</h2>
-              <pre class="item"><code >
+              <pre class="item"><code>
   module.exports = function reverse(n) {
     let result = String(n)
       .split("")
@@ -278,7 +281,7 @@
       </footer>
     </div>
 
-    <script src="libs/highlight/highlight.js"></script>
+    <script src="libs/highlight/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
     </script>
